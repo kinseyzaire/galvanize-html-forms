@@ -1,5 +1,5 @@
 $(function () {
-
+   console.log(document.location.search)
   if(document.location.search) {
     var queryString = document.location.search.replace('?', '');
     var pairs = queryString.split('&').map(function (pair) {
